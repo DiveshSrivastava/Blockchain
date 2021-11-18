@@ -86,7 +86,7 @@ it('can add the star name and star symbol properly', async() => {
 	let NewStar = await instance.lookUptokenIdToStarInfo(6);
 
 	assert.equal(StarTokenName, 'Divesh 2nd Star Token');
-	assert.equal(StarSymbolName, 'DIV');
+	assert.equal(StarSymbolName, 'DIVS');
 	assert.equal(NewStar, 'Star 1');
 });
 
